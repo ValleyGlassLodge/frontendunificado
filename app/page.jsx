@@ -8,7 +8,7 @@ const structuredData = {
   description:
     "Un nuevo refugio de vidrio entre naturaleza y cielo. Próxima apertura.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://valleyglasslodge.com",
-  image: "/valley-glass-lodge-logo.png",
+  image: "/valley-glass-lodge-transparent.png",
   brand: { "@type": "Brand", name: "Valley Glass Lodge" },
 };
 
@@ -22,10 +22,10 @@ export default function Home() {
       <header className="topbar">
         <a className="wordmark" href="#inicio" aria-label="Valley Glass Lodge, inicio">
           <Image
-            src="/valley-glass-lodge-logo.png"
+            src="/valley-glass-lodge-transparent.png"
             alt="Valley Glass Lodge"
-            width={1200}
-            height={1476}
+            width={1158}
+            height={848}
             priority
             className="brand-image"
           />

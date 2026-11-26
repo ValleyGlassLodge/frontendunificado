@@ -4,7 +4,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://valleyglasslodge.co
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Valley Glass Lodge | Una nueva forma de estar en la naturaleza",
+  title: "Valley Glass Lodge | Próxima apertura",
   description:
     "Muy pronto, Valley Glass Lodge abrirá sus puertas. Un refugio de vidrio para bajar el ritmo, respirar profundo y mirar el paisaje de otra manera.",
   applicationName: "Valley Glass Lodge",
@@ -24,16 +24,18 @@ export const metadata = {
     siteName: "Valley Glass Lodge",
     locale: "es_EC",
     type: "website",
-    images: [{ url: "/valley-glass-lodge-logo.png", width: 1200, height: 1476, alt: "Logotipo de Valley Glass Lodge" }],
+    images: [{ url: "/valley-glass-lodge-transparent.png", width: 1158, height: 848, alt: "Logotipo de Valley Glass Lodge" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Valley Glass Lodge — Próximamente",
     description: "Un refugio de vidrio en medio de la naturaleza. Muy pronto.",
-    images: ["/valley-glass-lodge-logo.png"],
+    images: ["/valley-glass-lodge-transparent.png"],
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/favicon.svg" },
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png", sizes: "128x128" }],
+  },
 };
 
 export const viewport = {
