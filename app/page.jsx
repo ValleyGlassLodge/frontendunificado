@@ -49,10 +49,10 @@ export default function Home() {
           <a className="primary-link" href="#la-idea">
             Descubre lo que viene <span aria-hidden="true">↓</span>
           </a>
-          <p className="opening-note">Próxima apertura <span>·</span> Ecuador</p>
+          <p className="opening-note">Próxima apertura <span>·</span> Valle de los Chillos, Ecuador</p>
         </div>
         <SkyExperience />
-        <div className="hero-caption"><span>00° 00′ 00″</span><span>UNA PAUSA EN LA NATURALEZA</span></div>
+        <div className="hero-caption"><span>≈ 0°16′ S · 78°29′ O</span><span>UNA PAUSA EN LA NATURALEZA</span></div>
       </section>
 
       <section className="intro section-shell" id="la-idea" aria-labelledby="intro-title">
@@ -85,14 +85,14 @@ export default function Home() {
             <p>Estamos dando forma a cada detalle. En poco tiempo, podrás vivirlo.</p>
           </div>
           <div className="coming-stamp" aria-label="Próximamente">
-            <span className="stamp-ring">PRÓXIMAMENTE · PRÓXIMAMENTE ·</span>
-            <span className="stamp-center">VGL<br /><small>ECUADOR</small></span>
+            <span className="stamp-ring">PRÓXIMAMENTE</span>
+            <span className="stamp-center"><span>VGL</span><small>ECUADOR</small></span>
           </div>
         </div>
       </section>
 
       <footer className="footer">
-        <a className="footer-name" href="#inicio">VALLEY<br />GLASS LODGE</a>
+        <a className="footer-name" href="#inicio">VALLEY GLASS LODGE</a>
         <p>Un nuevo horizonte está cerca.</p>
         <a className="back-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
         <small>© {new Date().getFullYear()} Valley Glass Lodge</small>
